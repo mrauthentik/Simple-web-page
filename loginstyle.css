@@ -1,0 +1,158 @@
+ *{
+     box-sizing: border-box;
+     padding: 0;
+     margin: 0;
+ }
+ /* * Top menu navigation */ 
+ .top-menu-container li{
+     font-weight: 700;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+ }
+ 
+ .top-menu-container ul {
+     padding: 0;
+     margin: 0;
+     float: right;
+     position: relative;
+     top: 20px;
+     right: 80px;
+     color: royalblue;
+     
+ }
+ 
+ .top-menu-container ul li{
+     display: inline;
+ }
+ 
+ .top-menu-container ul li a {
+     text-decoration: none;
+     margin: 20px;
+     font-size: 14px;
+     padding: 0px 4px 6px 4px;
+     text-transform: uppercase;
+     color: #303030;
+ }
+ 
+ 
+ 
+ /* ****** LOGIN PORTAL ******* */
+ *{
+     margin: 0;
+     padding: 0;
+ }
+
+ body{
+     background: url('images/about_01.jpg') no-repeat center left fixed white;
+     overflow-x: hidden;
+ }
+
+ .head{
+     color: whitesmoke;
+     font-size: 28px;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     margin:0;
+     padding: 0;
+     top: 8cm;
+     text-align: left;
+     position: relative;
+     text-shadow: 0px 1px 1px deeppink;
+    }
+
+    .head p{
+        color: white;
+        font-size: 20px;
+        margin-right:50rem ;
+        text-shadow: none;
+    }
+
+ .container{
+     margin:3rem 4rem;
+     padding: 1px;
+     float: right;
+     background:white;
+     box-shadow: 2px 2px 4px 3px rgba(0, 0, 0, 0.103);
+     height: 26rem;
+     width: 30%;
+     border: 1px solid none;
+     border-radius: 1rem;
+ }
+
+ .container-title{
+     color:coral;
+     font-size: 30px;
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+     font-weight: 700;
+     font-style: italic;
+     margin-bottom: 2rem;
+ }
+
+ input[type=email], [type=password], [type=number] {
+    background-color: white;
+    border-radius: 1.1rem;
+    border:none;
+    width: 90%;
+    height: 50px;
+    box-shadow:1px 1px 2px hotpink;
+    margin-top: 20px;
+    margin-left: 15px;
+    outline: rgb(12, 12, 12);
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 5%;
+
+}
+.btn{
+    border: none;
+    background-color: transparent;
+    margin-top: 2px;
+
+}
+.btn-main, button{
+  background: cornflowerblue;
+  width: 50%;
+  border: solid none;
+  height: 1cm;
+  border-radius: 2rem;
+  text-align: center;
+  margin: 5px auto;
+  padding: 2px auto;
+  color: white;
+  font-size: 20px;
+}
+
+.btn-less{
+  background: deeppink;
+  width: 50%;
+  border: solid none;
+  height: 1cm;
+  border-radius: 2rem;
+  text-align: center;
+  margin: 5px auto;
+  padding: 2px auto;
+  color: white;
+  font-size: 20px;
+}
+
+.btn-less, .btn-main, a{
+    text-decoration: none;
+    color: white;
+}
+
+
+p{
+    text-align: center;
+}
+
+span{
+    padding-left:5px;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+img{
+    width: 60px;
+    height: 60px;
+    margin-left: 11rem;
+    border-radius:2rem;
+}
