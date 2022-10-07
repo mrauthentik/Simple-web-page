@@ -12,26 +12,32 @@
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css"/>
 </head>
-
 <body>
     <header>
         <!-- Navigation -->
+        
         <nav class="top-menu-container">
             <div class="logo-header">
+                <div class="tab-container" id="tab">
+                    <div class="tab"></div>
+                    <div class="tab"></div>
+                    <div class="tab"></div>
+                    <div class="tab"></div>
+                </div>
                    <strong> UCHE UMOKE </strong>
             </div>
 
-            <ul>
-                <li>
+            <ul id="nav">
+                <li class="nav-li">
                     <a href="index.html"> <i class="fas fa-home:before"></i> About Me</a>
                 </li>
-                <li>
+                <li class="nav-li">
                     <a href="contact-me.html">Contact page </a>
                 </li>
-                <li>
+                <li class="nav-li">
                     <a href="Registration.html">Registration page</a>
                 </li>
-                <li>
+                <li class="nav-li">
                     <a href="login.html" >&#128682;Login page</a>
                 </li>
             </ul>
@@ -53,36 +59,39 @@
  <div id="main-section">                   
     <div class="container-grid-4">
         <div>
-            <img src="images/item_img_02b.jpg" alt="">
-            <h2 class="number">1</h2>
+            
             <h2 class="number-text">
                 Web Design
             </h2>
             <p>
                 Ui/UX Design, Figma!
             </p>
+            <img src="images/item_img_02b.jpg" alt=""  height="20%">
+            <h2 class="number">1</h2>
+            
         </div>
 
-        <div>
-            <img src="images/item_img_02.jpg" alt="">
-            <h2 class="number">2</h2>
-            <h2 class="number-text">
+        <div>            <h2 class="number-text">
                 Web Development
             </h2>
             <p>
                 Full Stack Web Development
             </p>
+            <img src="images/item_img_02.jpg" alt="">
+            <h2 class="number">2</h2>
+
         </div>
 
         <div>
-            <img src="images/item_img_02c.jpg" alt="">
-            <h2 class="number">3</h2>
             <h2 class="number-text">
                 DevOps
             </h2>
             <p>
                 HTML, CSS, JAVASCRIPT, REACT JS, NODE JS!
             </p>
+            <img src="images/item_img_02c.jpg" alt="">
+            <h2 class="number">3</h2>
+            
         </div>
     </div>
 
@@ -130,6 +139,7 @@
         </ol>
     </div>
     <div class="priorities">
+        <h1>very where</h1>
         <ul>
             <p>PRIORITIES:-</p>
             <li>
@@ -147,6 +157,7 @@
         </ul>
     </div>
         <div class="skills">
+            
          <ul>
             <p>SKILLS</p>
             <li>
@@ -163,7 +174,7 @@
     </div>
 </div>
 
-        <div class="btn-wrapper">
+        <div class="btn-wrapper" id="btn-orange">
             <a href="contact-me.html">Contact Me</a>
         </div>
        </div>
@@ -174,9 +185,15 @@
         <div class="container-footer">
             
             <p>
-                <marquee behavior="rtl" direction="rtl">Thanks Zuri From Uche Umoke </marquee>
+                <marquee behavior="rtl" direction="rtl">
+                    For More template vist 
+                    <a href="github/mrauthentik.com">
+                        @mrauthentik
+                    </a> 
+                    on Github </marquee>
             </p>
         </div>
     </footer>
+    <script src="./main.js"></script>
 </body>
 </html>

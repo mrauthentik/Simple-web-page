@@ -406,7 +406,62 @@ footer {
 
 
  @media only screen and (max-width:925px) {
-     #main-section{
+    body{
+        overflow: none;
+    }
+    #hero-container{
+    background-size: cover;
+   }
+    .tab-container{
+        display: grid;
+    }
+    .display{
+        display: grid;
+    }
+    .tab{
+        background-color: black;
+        height:3px;
+        width: 1.8rem;
+        margin-top: 2px;
+        position: relative;
+        right: 5rem;
+        bottom: 2rem;
+    }
+    .top-menu-container ul li a {
+        color: white;
+    }
+    ul{
+        display: none;
+    }
+    .nav-li {
+        height: 3rem;
+        background-color: rgba(128, 128, 128, 0.404);
+        position:relative;
+        display: flex;
+        right: 4rem;
+        color: white;
+    }
+    
+    .title{
+        position: relative;
+        margin-right: 2rem;
+        font-size: 20px;
+        position: absolute;
+    }
+    .top-menu-container {
+        background-color: #ffffff;
+        height: 50px;
+        box-shadow: 0px 0px 10px #cccccc;
+    }
+    strong{
+        position: relative;
+        bottom: 2.2rem;
+    }
+    .btn-wrapper{
+        position: absolute;
+    }
+    #main-section{
+        background-color: white;
          display: table-row;
          
      }
@@ -419,3 +474,43 @@ footer {
      image{
          display: grid;
      }
+     #btn-orange{
+        position: absolute;
+        top: 50cm;
+        border-radius: 2rem;
+     }
+     .skills, .hobbies,.priorities{
+        background-color: #dcdcdc;
+        height: fit-content;
+        box-shadow: 1px 2px 1px 1px rgba(0, 0, 0, 0.5);
+     }
+     .list{
+        color: rgb(53, 53, 201);
+        font-weight: bolder;
+        font-size: large;
+       
+     }
+     .list p{
+        color: orange;
+     }
+     .skills{
+        height: 5cm;
+        text-align: center;
+        margin-left:4rem;
+     }
+     .container-grid-4, img{
+        float: right;
+        margin-right: 5rem;
+        display: flex;
+        flex-direction:column;
+     }
+     .container-grid-4 img{
+        width:50%;
+     }
+     .who{
+        text-align: left;
+        position: relative;
+        right: 4rem;
+        float:left ;
+     }
+    }
